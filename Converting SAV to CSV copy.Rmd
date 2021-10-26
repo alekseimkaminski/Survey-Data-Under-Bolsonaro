@@ -1,0 +1,17 @@
+---
+title: "Converting SAV to CSV"
+author: "Aleksei Kaminski"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: html_document
+---
+
+#Code attached below
+##This is great for converting SAV files from SPSS into CSV files. 
+##CSV files are more compatible and readable when conducting data analysis in 
+## R and Excel or anymore program of your interest.
+```{r}
+library(foreign)
+whateverfileyouwanttocallit <- read.spss(file.choose(),to.data.frame=TRUE)
+View(whateverfileyouwanttocallit)
+write.csv(whateverfileyouwanttocallit, file="04696.csv")
+```
