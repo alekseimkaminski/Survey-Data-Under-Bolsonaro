@@ -14,5 +14,5 @@ library(foreign)
 
 whateverfileyouwanttocallit <- read.spss(file.choose(),to.data.frame=TRUE)
 View(whateverfileyouwanttocallit)
-write.csv(whateverfileyouwanttocallit, file="04696.csv")
+write.csv(whateverfileyouwanttocallit, file="whateverfileyouwanttocallit.csv")
 
