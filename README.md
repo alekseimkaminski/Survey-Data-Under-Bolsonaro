@@ -1,2 +1,2 @@
 # Collecting Survey Data from CESOP
-Gathering survey/polling data from CESOP Unicamp archives and converting files to CSV
+Gathering national survey/polling data under the Bolsonaro administration from CESOP/Unicamp archives 
