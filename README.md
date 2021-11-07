@@ -1,2 +1,2 @@
-# Converting-SAV-to-CSV-in-R
-Converting a SAV from SPSS to CSV for use in Excel and R. 
+# Collecting Survey Data from CESOP
+Gathering survey/polling data from CESOP Unicamp archives and converting files to CSV
