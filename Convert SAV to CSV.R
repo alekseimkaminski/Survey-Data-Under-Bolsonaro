@@ -8,4 +8,4 @@ whateverfileyouwanttocallit <- read.spss(file.choose(),to.data.frame=TRUE) #choo
 
 View(whateverfileyouwanttocallit) 
 
-write.csv(whateverfileyouwanttocallit, file=newfile.csv")
+write.csv(whateverfileyouwanttocallit, file="newfile.csv") 
