@@ -9,6 +9,3 @@ whateverfileyouwanttocallit <- read.spss(file.choose(),to.data.frame=TRUE) #choo
 View(whateverfileyouwanttocallit) 
 
 write.csv(whateverfileyouwanttocallit, file=newfile.csv")
-
-View(newfile) #sanity check to make sure file looks clean
-
